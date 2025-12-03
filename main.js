@@ -143,5 +143,5 @@ Speed 1: ${travelTime(distance, mph1)}
 Speed 2: ${travelTime(distance, mph2)}
 Speed 3: ${travelTime(distance, mph3)}
 
-55 miles per hour and 60 miles per hour viable options for the cross-country trip. If fuel consumption matters then 55 miles per hour is the better option since it consumes ${numberOfGallons(distance, mpg1)} gallons of fuel, which is lower than the rest which consumes ${numberOfGallons(distance, mpg2)} gallons and ${numberOfGallons(distance, mpg3)} gallons. If speed matters then 60 miles per hour is the better option since it takes ${fuelExpense(budget, distance, costOfFuel, mpg2)} hours to get there, which is less time compared to the ${fuelExpense(budget, distance, costOfFuel, mpg1)} and ${fuelExpense(budget, distance, costOfFuel, mpg3)} hours.
+55 miles per hour and 60 miles per hour viable options for the cross-country trip. If fuel consumption matters then 55 miles per hour is the better option since it consumes ${numberOfGallons(distance, mpg1)} gallons of fuel, which is lower than the rest which consumes ${numberOfGallons(distance, mpg2)} gallons and ${numberOfGallons(distance, mpg3)} gallons. If speed matters then 60 miles per hour is the better option since it takes ${travelTime(distance, mph2)} hours to get there, which is less time compared to the ${travelTime(distance, mph1)} hours.
 `);

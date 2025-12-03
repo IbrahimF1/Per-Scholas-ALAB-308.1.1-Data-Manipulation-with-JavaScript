@@ -1,0 +1,27 @@
+Example: true
+
+Part 1: Math Problems
+It is true that all of the numbers are divisible by 5. It is false that the first number is larger than the last. After doing the arithmetic operations on the numbers the result was 0. It is true that all the numbers are under 25.
+
+Part 2: Practical Math
+Vehicle Info:
+Speed 1: At 55 miles per hour, you get 30 miles per gallon.
+Speed 2: At 60 miles per hour, you get 28 miles per gallon.
+Speed 3: At 75 miles per hour, you get 23 miles per gallon.
+
+How many gallons of fuel will you need for the entire trip?
+Speed 1: 50
+Speed 2: 53.57142857142857
+Speed 3: 65.21739130434783
+
+Will your budget be enough to cover the fuel expense?
+Speed 1: true
+Speed 2: true
+Speed 3: false
+
+How long will the trip take, in hours?
+Speed 1: 27.272727272727273
+Speed 2: 25
+Speed 3: 20
+
+55 miles per hour and 60 miles per hour viable options for the cross-country trip. If fuel consumption matters then 55 miles per hour is the better option since it consumes 50 gallons of fuel, which is lower than the rest which consumes 53.57142857142857 gallons and 65.21739130434783 gallons. If speed matters then 60 miles per hour is the better option since it takes 25 hours to get there, which is less time compared to the 27.272727272727273 hours.
